@@ -1,0 +1,60 @@
+@import url(normalize.css);
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* layout */
+.container{
+    width: 1084px;
+    margin: 0 auto;
+}
+.con_pd{
+    padding: 100px 0;
+}
+.con_top_pd{
+    padding-top: 200px;
+}
+
+/* typography */
+.bold900{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+}
+
+.semibold800{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+}
+.medium700{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+.huge_title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 64px;
+}
+.main_title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 64px;
+}
+.descript{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 35px;
+}
