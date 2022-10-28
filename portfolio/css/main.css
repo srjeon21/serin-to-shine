@@ -1,0 +1,44 @@
+/* header */
+body > header .main_title{
+    color: #fff;
+    padding-top: 450px;
+    margin-bottom:450px;
+}
+body > header{
+    text-align: center;
+    height: 900px;
+    background: url(../image/shine.png);
+}
+
+/* profile */
+.profile{
+    text-align: center;
+    background-color: #D6F5FF;
+}
+.profile_list{
+    display:flex;
+    gap: 100px;
+}
+.profile .con_top_pd{
+    padding-top: calc(var(--base-unit)*3.5);
+}
+.profile .semibold800{
+    font-size: calc(var(--base-unit)*1.5);
+    white-space: nowrap;
+    text-align: center;
+    margin-top: var(--base-unit);
+}
+.profile_list .descript{
+    margin: calc(var(--base-unit)/2) 0 calc(var(--base-unit)/2);
+}
+
+
+
+/* Click to see */
+.clickToSee .CS_Media{
+    display:flex;
+}
+.clickToSee .computer_science{
+    background: url(../image/Computer\ Science.png);
+    height: 508px;
+}

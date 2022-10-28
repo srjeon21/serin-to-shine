@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page - SERIN TO SHINE</title>
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -19,35 +20,34 @@
 </head>
 <body>
     <header>
-        <h2 class="main_title">SERIN TO SHINE</h2>
+        <h2 class="main_title">Serin to Shine</h2>
     </header> <!-- no need of container?-->
-    <section class="introduction con_top_pd"></section> <!-- no container since sky BG?-->
-    <section class="profile con_top_pd">
-        <div class="container"></div>
+    <section class="introduction"></section> <!-- no container since sky BG?-->
+    <section class="profile con_top_pd con_bottom_pd">
+        <div class="container">
         <ul class="profile_list">
-            <li>
-                <span class="profile_pic"></span>
+            <li class="con_top_pd">
+                <span class="profile_pic "></span>
+                <img src="image/Profile Pic.png" alt="Serin's profile picture" width="300px">
                 <h3 class="semibold800 navy-txt">Serin (Serena) Jeon</h3> 
             </li>
             <li>
                 <span class="description"></span>
-                <h3 class="descript">
-                    <p>Hello!</p>  
-                    <p>I’m Serin Jeon, a candidate for a shiny star.</p>
-
-                    <p>I’m an international student who came all the way from Korea,
+                <h3>
+                    <p class="descript">Hello!</p>  
+                    <p class="descript">I’m Serin Jeon, a candidate for a shiny star.</p>
+                    <p class="descript">I’m an international student who came all the way from Korea,
                     to find where on this planet I would begin to shine.</p> 
-
-                    <p>I mostly have been working on Java for the past year.  I recently declared my major,
+                    <p class="descript">I mostly have been working on Java for the past year.  I recently declared my major,
                     so this field is relatively new to me. Yet, I still took that big step because
                     CS made me become a passionate person. It had led me to learn more materials
                     outside of my course, including Figma, Framer, HTML, and CSS, where I’m producing this portfolio.</p> 
-
-                    <p>Now it is my time to actually experience what all of this is like in the real world,
+                    <p class="descript">Now it is my time to actually experience what all of this is like in the real world,
                     where I will start shining like a star.</p>
                 </h3> 
             </li>
         </ul>
+        </div>
     </section>
     <section class="skills container con_top_pd">
         <li>
@@ -128,15 +128,17 @@
         </li>
         <div class="graph"></div>
     </section>
-    <section class="clickToSee con_top_pd huge_title">
-        <h2>Click to see what I have done on:</h2>
+    <section class="clickToSee con_top_pd con_bottom_pd">
+        <h2 class="huge_title">Click to see what I have done on:</h2>
+        <li class="CS_Media">
         <p><a href="" class="computer_science bold900">Computer Science</a></p>
         <p><a href="" class="design_media bold900">Design/Media</a></p>
+        </li>
         <div class="sky_bg">
         </div>
         
     </section> <!-- sky BG?-->
-    <section class="ending container con_top_pd huge_title">
+    <section class="ending container con_top_pd con_bottom_pd huge_title">
         <h2>Thank you for reading over my portfolio!
             Please contact me if you have any questions.</h2>
     </section>

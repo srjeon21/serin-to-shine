@@ -4,7 +4,7 @@
 
 /* variable */
 :root{
-    --base-unit:20px;
+    --base-unit:25px;
     --width-unit:1084px;
     --lightblue-c:#D6F5FF;
     --skyblue-c:#52C1FF;
@@ -21,6 +21,9 @@
 }
 .con_top_pd{
     padding-top: calc(var(--base-unit)*6.67);
+}
+.con_bottom_pd{
+    padding-bottom: calc(var(--base-unit)*6.67);
 }
 
 /* typography */
@@ -48,26 +51,27 @@ line-height: 48px;
 }
 .huge_title{
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: calc(var(--base-unit)*1.67);
-line-height: 64px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(var(--base-unit)*1.67);
+    line-height: 64px;
 }
 .main_title{
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: calc(var(--base-unit)*3.333);
-line-height: 64px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(var(--base-unit)*3.333);
+    line-height: 64px;
+    text-transform: uppercase;
 }
 .descript{
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: var(--base-unit);
-line-height: 35px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--base-unit);
+    text-align: left;
+    line-height: 35px;
 }
-
 
 /* Color */
 .sky-bg{
