@@ -1,0 +1,101 @@
+/* header */
+body > header .main_title{
+    color: #fff;
+    padding-top: 450px;
+    margin-bottom:450px;
+}
+body > header{
+    text-align: center;
+    height: 900px;
+    background: url(../image/shine.png);
+}
+
+/* profile */
+.profile{
+    text-align: center;
+    background-color: var(--lightblue-c);
+}
+.profile_list{
+    display:flex;
+    gap: 100px;
+}
+.profile .con_top_pd{
+    padding-top: calc(var(--base-unit)*3.5);
+}
+.profile .semibold800{
+    font-size: calc(var(--base-unit)*1.5);
+    white-space: nowrap;
+    text-align: center;
+    margin-top: var(--base-unit);
+}
+.profile_list .descript{
+    margin: calc(var(--base-unit)/2) 0 calc(var(--base-unit)/2);
+}
+
+/* Information */
+.information{
+    display: flex;
+    gap: 90px;
+}
+.education{
+    padding-top: calc(var(--base-unit)*8.5);
+}
+.information .con_top_pd{
+    padding-top: calc(var(--base-unit));
+}
+.information .con_bottom_pd{
+    padding-bottom: calc(var(--base-unit)*3.33);
+}
+.information .flexing{
+    gap:10px;
+}
+
+/* Computer Skills */
+.comp_skill .con_bottom_pd{
+    padding-bottom: calc(var(--base-unit)*3.33);
+}
+.comp_skill .semibold800{
+    margin: calc(var(--base-unit)) 0 calc(var(--base-unit)*1.825);
+}
+.comp_skill .flexing{
+    gap:280px;
+}
+.graph{
+    padding-top: calc(var(--base-unit)*1.5);
+}
+
+
+
+/* Click to see */
+.clickToSee{
+    text-align: center;
+    background-color: var(--lightblue-c);
+}
+.CS_Media{
+    display:flex;
+    justify-content: space-between;
+}
+.computer_science {
+    background: url(../image/Computer\ Science.jpg);
+    background-size: cover;
+    width: 49.45vw;
+    height: 510px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+.media{
+    background: url(../image/Media.jpg);
+    background-size: cover;
+    width: 49.45vw;
+    height: 510px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
