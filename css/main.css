@@ -1,25 +1,55 @@
 /* header */
-body > header .main_title{
+.main_title {
     color: #fff;
     padding-top: 450px;
-    margin-bottom:450px;
 }
-body > header{
+header {
     text-align: center;
+    width: 100vw;
     height: 900px;
-    background: url(../image/shine.png);
+    background: url(../image/shine.jpg);
 }
 
 /* profile */
-.profile{
+.profile {
     text-align: center;
     background-color: var(--lightblue-c);
+    width: 100vw;
 }
-.profile_list{
+.align-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile_circle {
+    width: 300px;
+    height: 310px;
+    position: relative;
+}
+.profile_circle div {
+    position: absolute;
+}
+.profile_circle .profile_pic {
+    background: url(../image/new_profile.png);
+    background-size: 100%;
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.profile_circle .profile_pic_bg {
+    background-color: var(--skyblue-c);
+    z-index: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top: 10px;
+}
+.profile_list {
     display:flex;
     gap: 100px;
 }
-.profile .con_top_pd{
+.profile .con_top_pd {
     padding-top: calc(var(--base-unit)*3.5);
 }
 .profile .semibold800{
@@ -49,6 +79,11 @@ body > header{
 .information .flexing{
     gap:10px;
 }
+.information i {
+    transform: scale(1.5);
+    position: relative;
+    top: 20%;
+}
 
 /* Computer Skills */
 .comp_skill .con_bottom_pd{
@@ -60,10 +95,9 @@ body > header{
 .comp_skill .flexing{
     gap:280px;
 }
-.graph{
+.graph {
     padding-top: calc(var(--base-unit)*1.5);
 }
-
 
 
 /* Click to see */
@@ -87,6 +121,11 @@ body > header{
     padding: 0px;
     gap: 10px;
 }
+.computer_science:hover, .media:hover {
+    opacity: 60%;
+    transition-duration: 0.2s;
+}
+
 .media{
     background: url(../image/Media.jpg);
     background-size: cover;

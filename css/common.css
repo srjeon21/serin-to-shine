@@ -11,6 +11,15 @@
     --navy-c: #00314D;
 }
 
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
+
 /* layout */
 .container {
     width: var(--width-unit);
@@ -35,7 +44,6 @@
 
 /* typography */
 .bold900 {
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: calc(var(--base-unit)*1.33);
@@ -43,7 +51,6 @@
 }
 
 .semibold800 {
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: calc(var(--base-unit)*1.07);
@@ -51,7 +58,6 @@
 }
 
 .medium700 {
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: calc(var(--base-unit)*0.8);
@@ -59,7 +65,6 @@
 }
 
 .huge_title {
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: calc(var(--base-unit)*1.67);
@@ -67,7 +72,6 @@
 }
 
 .main_title {
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: calc(var(--base-unit)*3.333);
@@ -76,7 +80,6 @@
 }
 
 .descript {
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: var(--base-unit);

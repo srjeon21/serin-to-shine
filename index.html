@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,16 +7,8 @@
     <title>Main Page - SERIN TO SHINE</title>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/main.css">
-
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <!--   <script>$(document).ready(function(){
-    $('.your-class').slick({
-      setting-name: setting-value
-    });
-  });
-  </script>-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <!-- slick.js later -->
 </head>
 
 <body>
@@ -27,15 +18,18 @@
     <section class="profile con_top_pd con_bottom_pd">
         <div class="container">
             <ul class="profile_list">
-                <li class="con_top_pd">
-                    <span class="profile_pic"></span>
-                    <img src="image/Profile Pic.png" alt="Serin's profile picture" width="300px">
+                <li class="con_top_pd align-center">
+                    <div class="profile_circle">
+                        <div class="profile_pic_bg"></div>
+                        <div class="profile_pic"></div>
+                    </div>
                     <h3 class="semibold800 navy-txt">Serin (Serena) Jeon</h3>
                 </li>
                 <li>
                     <span class="description"></span>
                     <h3>
                         <p class="descript">Hello!</p>
+                        <!-- fix later -->
                         <p class="descript">I’m Serin Jeon, a candidate for a shiny star.</p>
                         <p class="descript">I’m an international student who came all the way from Korea,
                             to find where on this planet I would begin to shine.</p>
@@ -64,8 +58,18 @@
                         <p class="medium700">(857) 210 - 5203</p>
                         <p class="medium700">Boston, MA</p>
                         <p class="medium700">jeon.ser@northeastern.edu</p>
-                        <p class="medium700">GitHub: srjeon21</p>
-                        <p class="medium700">LinkedIn: serin-jeon-serena</p>
+                        <div class="flexing">
+                            <a id="github" href="https://github.com/srjeon21" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <p class="medium700">GitHub: srjeon21</p>
+                        </div>
+                        <div class="flexing">
+                            <a id="linkedin" href="https://www.linkedin.com/in/serin-jeon-serena/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <p class="medium700">LinkedIn: serin-jeon-serena</p>
+                        </div>
                     </li>
                 </ul>
                 <ul class="education">
