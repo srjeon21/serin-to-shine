@@ -1,0 +1,74 @@
+/* navigator */
+.content-list {
+    height: 500px;
+}
+a[class="dongwon"] div[class="star"] {
+    font-size: 1.2rem;
+}
+#nav-display .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 120px;
+}
+#nav-display .row:last-of-type {
+    padding-top: 40px;
+}
+
+/* project */
+.project {
+    padding-bottom: 10%;
+    width: 100vw;
+}
+.connector, .divider {
+    height: 300px;
+}
+.connector {
+    background-image: linear-gradient(var(--navy-c), var(--lightblue-c));
+}
+.pad-left {
+    padding-left: 12%;
+}
+.pad-right {
+    padding-right: 12%;
+}
+.project-gallery {
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    height: 350px;
+    position: relative;
+}
+.popup {
+    background-image: url(../image/gallary-popup.png);
+    width: 500px;
+    height: 350px;
+    background-size: cover;
+    border-radius: 5%;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.5);
+    position: absolute;
+}
+.slide {
+    position: absolute;
+    top: 36px;
+}
+.slide-button {
+    transform: scale(1.1);
+    position: relative;
+    color: var(--lightblue-c);
+    display: flex;
+    justify-content: center;
+    top: 20px;
+}
+.slide-button:hover {
+    color: var(--skyblue-c);
+}
+.slide-button:hover, .star:hover, .slide:hover {
+    cursor: grab;
+}
+.slide-left {
+    left: -40%;
+}
+.slide-right {
+    right: -40%;
+}

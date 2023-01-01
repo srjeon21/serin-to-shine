@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/pages.css">
+        <link rel="stylesheet" href="css/comp.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+        <title>Computer Projects - SERIN TO SHINE</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.slide').slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    dots: false
+                });
+                $('.slide-left').click(function(){
+                    $('.slide').slick('slickPrev');
+                });
+                $('.slide-right').click(function(){
+                    $('.slide').slick('slickNext');
+                })
+            });
+        </script>
+    </head>
+    <body>
+        <header class="banner">
+            <h1>Computer Projects</h1>
+        </header>
+        <section class="content-list">
+            <nav id="nav-display">
+                <div class="row">
+                    <a class="dongwon" href="#dongwon">
+                        <div class="star">Dongwon Internal Medicine Clinic Webpage</div>
+                    </a>
+                    <a class="portfolio" href="#portfolio">
+                        <div class="star">SERIN TO SHINE Portfolio</div>
+                    </a>
+                    <a class="ramen" href="#ramen">
+                        <div class="star">Ramen One-click</div>
+                    </a>
+                </div>
+                <div class="row">
+                    <a class="image" href="#image-processor">
+                        <div class="star">Image Processor</div>
+                    </a>
+                    <a class="marble" href="#marble-solitaire">
+                        <div class="star">Marble Solitaire</div>
+                    </a>
+                    <a class="floodit" href="#floodit">
+                        <div class="star">Flood It</div>
+                    </a>
+                </div>
+            </nav>
+        </section>
+        <div class="connector"></div>
+        <div class="navigate-button">
+            <a href="#" id="top-button" class="button" title="Scroll to Top">
+                <i class="fa fa-chevron-up"></i>
+            </a>
+            <a href="index.html" id="home-button" class="button" title="Home">
+                <i class="fa fa-home"></i>
+            </a>
+         </div>
+        <section class="dongwon project" id="dongwon">
+            <h2 class="pad-left">Dongwon Internal Medicine Clinic Webpage</h2>
+            <div class="content">
+                <div class="left-col pad-left">
+                    <ul class="detail">
+                        <li>December 2022 - Present</li>
+                        <li>Personal Project</li>
+                        <li>Languages: HTML, CSS</li>
+                        <li>Tools: VSCode, GitHub</li>
+                        <li>Production: Responsive Webpage</li>
+                    </ul>
+                    <div class="project-link">
+                        <button class="goto">Dongwon Clinic Webpage</button>
+                        <button class="goto">GitHub Repo</button>
+                    </div>
+                </div>
+                <div class="right-col pad-right">
+                    <p class="description">
+                        This is a responsive website built to be used as a homepage for my mother’s hospital. Dongwon Internal Medicine is the name of the clinic where my mom works as a doctor. It is a personal project that I proceeded with the wish of using my field to support my family.<br><br>
+                        It was my first time developing a webpage for an actual client; throughout this project, I frequently interacted with my mom so that I could achieve her needs. That way, I became a better communicator, which is one of the most important characteristics for a developer.<br><br>
+                        This project also helped me become more advanced in HTML and CSS, including a map insertion, a fixed navigation bar, and a smooth-scrolling animation.<br><br>
+                        I would continue working on the website for maintenance, as well as for enhancement whenever I learn a new tool.
+                    </p>
+                </div>
+            </div>
+            <div class="project-gallery">
+                <div class="gallery-set">
+                    <div class="popup"></div>
+                    <div class="slide">
+                        <div><img src="/image/comp/dongwon-1.png" width="500px" /></div>
+                        <div><img src="image/comp/dongwon-2.png" width="500px" /></div>
+                    </div>
+                    <div class="slide-button">
+                        <i class="fa fa-chevron-left slide-button slide-left"></i>
+                        <i class="fa fa-chevron-right slide-button slide-right"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <div class="divider"></div> -->
+        <section class="portfolio project" id="portfolio">
+            <h2 class="pad-left">SERIN TO SHINE Portfolio</h2>
+            <div class="content">
+                <div class="left-col pad-left">
+                    <ul class="detail">
+                        <li>October 2022 - Present</li>
+                        <li>Personal Project</li>
+                        <li>Languages: HTML, CSS, Javascript</li>
+                        <li>Tools: VSCode, GitHub</li>
+                        <li>Production: Responsive Webpage</li>
+                    </ul>
+                    <div class="project-link">
+                        <a id="portfolio-page" href='https://srjeon21.github.io/serin-to-shine/' target="_blank">
+                            <button class="goto">Portfolio Main Page</button>
+                        </a>
+                        <a id="github-page" href="https://github.com/srjeon21/serin-to-shine" target="_blank">
+                            <button class="goto">GitHub Repo</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-col pad-right">
+                    <p class="description">
+                        I self-taught HTML, CSS, and a bit of Javascript to build my own portfolio. After making the wireframe on Figma, it was time to build the responsive webpage. As I had only been coding using Java, it was my first time working on a project that resembled front-end software development.<br>
+                        I first started learning HTML and CSS by watching YouTube tutorials. Then over the winter break, I spent my time learning more deeply about responsive web design and modified a huge portion of the portfolio that I'd had so far.<br>
+                        I also implemented a bit of Javascript. For instance, I used slick.js to display my computer project images more neatly. I also used queryselector for making a modal.<br>
+                        By producing my portfolio, I became more interested in front-end work.<br>
+                        I will continue flourishing my portfolio whenever I make a new significant footprint on my passion.
+                    </p>
+                </div>
+            </div>
+            <div class="project-gallery">
+                <div class="gallery-set">
+                    <div class="popup"></div>
+                    <div class="slide">
+                        <div><img src="/image/comp/portfolio-1.png" width="500px" /></div>
+                        <div><img src="image/comp/portfolio-2.png" width="500px" /></div>
+                    </div>
+                    <div class="slide-button">
+                        <i class="fa fa-chevron-left slide-button slide-left"></i>
+                        <i class="fa fa-chevron-right slide-button slide-right"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ramen project" id="ramen">
+            <h2 class="pad-left">Ramen One-click</h2>
+            <div class="content">
+                <div class="left-col pad-left">
+                    <ul class="detail">
+                        <li>October - December 2022</li>
+                        <li>Partner Project</li>
+                        <li>Languages: Python, DockerFile, MySQL</li>
+                        <li>Tools: AppSmith, VSCode, DataGrip, GitHub</li>
+                        <li>Production: Application on AppSmith</li>
+                    </ul>
+                    <div class="project-link">
+                        <a id="portfolio-page" href='https://drive.google.com/file/d/1y5tgk_kEVZaE9yPDyA3hxNrZ_b_fs_IV/view' target="_blank">
+                            <button class="goto">Demo Video</button>
+                        </a>
+                        <a id="github-page" href="https://github.com/srjeon21/Ramen_One-click" target="_blank">
+                            <button class="goto">GitHub Repo</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-col pad-right">
+                    <p class="description">
+                        The README on Ramen One-click GitHub fully explains this project.<br><br>
+                        Throughout this project, I was able to understand how containers and URL work and familiarize myself with Python. I was also able to review and adapt knowledge learned from the class, like building ER diagrams and relational models, as well as using MySQL and Docker.<br>
+                        By referring to a CSV file on Kaggle, I inserted item tables into the database we've created. Relationships between two items were represented as tables as well.<br>
+                        HTTP requests like GET and POST were used for different routes, each of which represents different wireframes. The final production on AppSmith allowed us to visualize how this app would look and actually work.
+                    </p>
+                </div>
+            </div>
+            <div class="project-gallery">
+                <div class="gallery-set">
+                    <div class="popup"></div>
+                    <div class="slide">
+                        <div><img src="/image/comp/ramen-1.jpeg" width="500px" /></div>
+                        <div><img src="/image/comp/ramen-2.jpeg" width="500px" /></div>
+                        <div><img src="/image/comp/ramen-3.jpeg" width="500px" /></div>
+                        <div><img src="/image/comp/ramen-4.jpeg" width="500px" /></div>
+                    </div>
+                    <div class="slide-button">
+                        <i class="fa fa-chevron-left slide-button slide-left"></i>
+                        <i class="fa fa-chevron-right slide-button slide-right"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="image-processor project" id="image-processor">
+            <h2 class="pad-left">Image Processor (JSwing)</h2>
+            <div class="content">
+                <div class="left-col pad-left">
+                    <ul class="detail">
+                        <li>October - December 2022</li>
+                        <li>Partner Project</li>
+                        <li>Language: Java</li>
+                        <li>Tool: IntelliJ, JSwing</li>
+                        <li>Production: GUI Application</li>
+                    </ul>
+                    <div class="project-link">
+                        <a id="portfolio-page" href='https://drive.google.com/file/d/16loQIknCOYyEkA_vgXP7NYgTt1AFfpi3/view?usp=share_link' target="_blank">
+                            <button class="goto">README.md</button>
+                        </a>
+                        <a id="github-page" href="https://drive.google.com/drive/folders/1eq0XT2p0Nlm1XATtexDnkWgduaZfoIOR?usp=share_link" target="_blank">
+                            <button class="goto">Java File (needs request)</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-col pad-right">
+                    <p class="description">
+                        The README fully explains how our team has built the image processor in Java. Since this was a class project, sharing the complete code on GitHub is prohibited.<br><br>
+                        This image processor supports the following image modifications: brightness, greyscale, sepia, red/green/blue/luma/intensity/value components, blur, sharpen, flip, and downscale.<br>
+                        This project helped me learn how to build a GUI-based interactive application. It was my first time using JSwing, so I needed to learn about JSwing features. I did so by reading Oracle docs, which developed my programming document comprehension ability. Therefore I understood new materials like Action Listeners, the differences between JFrame and JPanel, and JScrollPane to make a scroll bar.<br>
+                        Also, because the project gave us full freedom in design choices, I could make numerous significant decisions, like which interfaces and classes to build and what and how to extend for accessibility and simplification.<br>
+                    </p>
+                </div>
+            </div>
+            <div class="project-gallery">
+                <div class="gallery-set">
+                    <div class="popup"></div>
+                    <div class="slide">
+                        <div><img src="/image/comp/image-1.png" width="500px" /></div>
+                        <div><img src="/image/comp/image-2.png" width="500px" /></div>
+                        <div><img src="/image/comp/image-3.png" width="500px" /></div>
+                        <div><img src="/image/comp/image-4.png" width="500px" /></div>
+                        
+                    </div>
+                    <div class="slide-button">
+                        <i class="fa fa-chevron-left slide-button slide-left"></i>
+                        <i class="fa fa-chevron-right slide-button slide-right"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="marble-solitaire project" id="marble-solitaire">
+            <h2 class="pad-left">Marble Solitaire Game</h2>
+            <div class="content">
+                <div class="left-col pad-left">
+                    <ul class="detail">
+                        <li>September - October 2022</li>
+                        <li>Individual Project</li>
+                        <li>Language: Java</li>
+                        <li>Tool: IntelliJ</li>
+                        <li>Production: Game</li>
+                    </ul>
+                    <div class="project-link">
+                        <a id="portfolio-page" href='https://drive.google.com/file/d/1Ly6M_T7EcQf_ZfaobCNUdabRG4wOvsaE/view?usp=share_link' target="_blank">
+                            <button class="goto">README.md</button>
+                        </a>
+                        <a id="github-page" href="https://drive.google.com/drive/folders/1IioURxIQyaSeCmGLNIS3qafTJADfzzSt?usp=share_link" target="_blank">
+                            <button class="goto">Java File (needs request)</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-col pad-right">
+                    <p class="description">
+                        The README fully explains how I've built the game in Java. Since this was a class project, sharing the complete code on GitHub is prohibited.<br><br>
+                        This was my time to build a project through object-oriented programming. After learning about the Model, View, Controller (MVC) pattern, I was able to see how that actually works by practicing that pattern for this project.<br>
+                        This project also helped me be more comfortable simplifying codes by building abstract classes and making private helper functions. As simplifying redundancy is vital as a programmer, I became a more advanced programmer through this project.<br>
+                        Lastly, it was also my first time utilizing configuration argument as a part of the game; this was my opportunity to understand how the main class works and how to define what program to run by inserting specific command arguments.
+                    </p>
+                </div>
+            </div>
+            <div class="project-gallery">
+                <div class="gallery-set">
+                    <div class="popup"></div>
+                    <div class="slide">
+                        <div><img src="/image/comp/marble-1.png" width="500px" /></div>
+                        <div><img src="/image/comp/marble-2.png" width="500px" /></div>
+                        <div><img src="/image/comp/marble-3.png" width="500px" /></div>
+                        <div><img src="/image/comp/marble-4.png" width="500px" /></div>
+                        <div><img src="/image/comp/marble-5.png" width="500px" /></div>
+                    </div>
+                    <div class="slide-button">
+                        <i class="fa fa-chevron-left slide-button slide-left"></i>
+                        <i class="fa fa-chevron-right slide-button slide-right"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="floodit project" id="floodit">
+            <h2 class="pad-left">FloodIt Game</h2>
+            <div class="content">
+                <div class="left-col pad-left">
+                    <ul class="detail">
+                        <li>March - August 2022</li>
+                        <li>Individual Project</li>
+                        <li>Language: Java</li>
+                        <li>Tool: Eclipse</li>
+                        <li>Production: Game</li>
+                    </ul>
+                    <div class="project-link">
+                        <a id="portfolio-page" href='https://drive.google.com/file/d/1LuljqzuQFoH0EACTMSExghamCAMKbBKf/view?usp=share_link' target="_blank">
+                            <button class="goto">README.md</button>
+                        </a>
+                        <a id="github-page" href="https://drive.google.com/drive/folders/1JYvO1uWE43mXfgt-zR9P6ei2Q-qaJOZf?usp=share_link" target="_blank">
+                            <button class="goto">Java File (needs request)</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-col pad-right">
+                    <p class="description">
+                        The README fully explains how I've built the game in Java. Since this was a class project, sharing the complete code on GitHub is prohibited.<br><br>
+                        This was my time to build a project through object-oriented programming. After learning about the Model, View, Controller (MVC) pattern, I was able to see how that actually works by practicing that pattern for this project.<br>
+                        This project also helped me be more comfortable simplifying codes by building abstract classes and making private helper functions. As simplifying redundancy is vital as a programmer, I became a more advanced programmer through this project.<br>
+                        Lastly, it was also my first time utilizing configuration argument as a part of the game; this was my opportunity to understand how the main class works and how to define what program to run by inserting specific command arguments.
+                    </p>
+                </div>
+            </div>
+            <div class="project-gallery">
+                <div class="gallery-set">
+                    <div class="popup"></div>
+                    <div class="slide">
+                        <div><img src="/image/comp/flood-1.jpeg" width="500px" /></div>
+                        <div><img src="/image/comp/flood-2.jpeg" width="500px" /></div>
+                        <div><img src="/image/comp/flood-3.jpeg" width="500px" /></div>
+                    </div>
+                    <div class="slide-button">
+                        <i class="fa fa-chevron-left slide-button slide-left"></i>
+                        <i class="fa fa-chevron-right slide-button slide-right"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="navy-txt medium700 pad-left pad-right">
+                <p>© 2022 Serin to Shine</p>
+                <p>jeon.ser@northeastern.edu</p>
+                <p>Made by Serin (Serena) Jeon</p>
+            </div>
+        </footer>
+    </body>
+</html>

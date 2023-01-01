@@ -7,19 +7,16 @@
     --base-unit: 25px;
     --width-unit: 1084px;
     --lightblue-c: #D6F5FF;
+    --brightblue-c: #7DD8FF;
     --skyblue-c: #52C1FF;
     --navy-c: #00314D;
 }
-
 html {
     font-family: 'Poppins', sans-serif;
 }
-
-* {
-    border: 1px solid black;
-    box-sizing: border-box;
-  }
-
+button {
+    cursor: grab;
+}
 /* layout */
 .container {
     width: var(--width-unit);
@@ -115,13 +112,13 @@ html {
 }
 
 /* ending */
-body>footer {
+body footer {
     padding: var(--base-unit) 0;
-    background: #FFFFFF;
+    background: white;
     box-shadow: 0px 13px 64px rgba(0, 0, 0, 0.1);
 }
 
-body>footer>div {
+body footer div {
     display: flex;
     justify-content: space-between;
     align-items: center;
