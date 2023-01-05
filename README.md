@@ -6,3 +6,5 @@
 * index.html
 * comp.html
 * media.html
+* donut.js
+* modal.js
