@@ -101,33 +101,25 @@ header {
 
 
 /* Click to see */
-.clickToSee{
+.clickToSee {
     text-align: center;
     background-color: var(--lightblue-c);
 }
-.CS_Media{
+.CS_Media {
     display:flex;
     justify-content: space-between;
 }
 .computer_science {
     background: url(../image/Computer\ Science.jpg);
-    background-size: cover;
-    width: 49.45vw;
-    height: 510px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 10px;
+}
+.media{
+    background: url(../image/Media.jpg);
 }
 .computer_science:hover, .media:hover {
     opacity: 60%;
     transition-duration: 0.2s;
 }
-
-.media{
-    background: url(../image/Media.jpg);
+.computer_science, .media {
     background-size: cover;
     width: 49.45vw;
     height: 510px;
@@ -137,4 +129,59 @@ header {
     align-items: center;
     padding: 0px;
     gap: 10px;
+}
+
+
+/* for new cpu skill display */
+.cpu-skill-new {
+    width: 100vw;
+}
+.cpu-skill-new .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.donut {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    background: conic-gradient(var(--skyblue-c) 0% 72%, var(--gray-c) 72% 100%);
+}
+.donut::before {
+    color: var(--navy-c);
+    width: 70%;
+    height: 70%;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    content: attr(id);
+    margin: auto;
+}
+.cpu-skill-new .row:last-of-type .donut {
+    background: conic-gradient(var(--brightblue-c) 0% 94%, var(--gray-c) 94% 100%);
+}
+.cpu-skill-new .row:last-of-type .donut:last-of-type {
+    background: conic-gradient(var(--brightblue-c) 0% 85%, var(--gray-c) 85% 100%);
+}
+#Java, #HTML, #CSS, #DrRacket {
+    background: conic-gradient(var(--skyblue-c) 0% 85%, var(--gray-c) 85% 100%);
+}
+#R, #MySQL {
+    background: conic-gradient(var(--skyblue-c) 0% 75%, var(--gray-c) 75% 100%);
+}
+#Python, #Docker {
+    background: conic-gradient(var(--skyblue-c) 0% 55%, var(--gray-c) 55% 100%);
+}
+#Javascript {
+    background: conic-gradient(var(--skyblue-c) 0% 40%, var(--gray-c) 40% 100%);
 }
