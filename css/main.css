@@ -150,7 +150,6 @@ header {
     border-radius: 50%;
     position: relative;
     text-align: center;
-    background: conic-gradient(var(--skyblue-c) 0% 72%, var(--gray-c) 72% 100%);
 }
 .donut::before {
     color: var(--navy-c);
@@ -166,22 +165,4 @@ header {
     justify-content: center;
     content: attr(id);
     margin: auto;
-}
-.cpu-skill-new .row:last-of-type .donut {
-    background: conic-gradient(var(--brightblue-c) 0% 94%, var(--gray-c) 94% 100%);
-}
-.cpu-skill-new .row:last-of-type .donut:last-of-type {
-    background: conic-gradient(var(--brightblue-c) 0% 85%, var(--gray-c) 85% 100%);
-}
-#Java, #HTML, #CSS, #DrRacket {
-    background: conic-gradient(var(--skyblue-c) 0% 85%, var(--gray-c) 85% 100%);
-}
-#R, #MySQL {
-    background: conic-gradient(var(--skyblue-c) 0% 75%, var(--gray-c) 75% 100%);
-}
-#Python, #Docker {
-    background: conic-gradient(var(--skyblue-c) 0% 55%, var(--gray-c) 55% 100%);
-}
-#Javascript {
-    background: conic-gradient(var(--skyblue-c) 0% 40%, var(--gray-c) 40% 100%);
 }
