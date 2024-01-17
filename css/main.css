@@ -1,13 +1,45 @@
 /* header */
-.main_title {
-    color: #fff;
-    padding-top: 450px;
-}
 header {
     text-align: center;
     width: 100vw;
-    height: 900px;
-    background: url(../image/shine.jpg);
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#serin-to-shine {
+    color: white;
+    font-size: 7em;
+    letter-spacing: 2px;
+    animation: slide-shine 3s;
+    text-shadow: rgb(255, 247, 0) 0 0 20px;
+}
+@keyframes slide-shine {
+    0% {
+        transform: translateY(70px);
+        opacity: 0;
+        animation-timing-function: ease-in-out;
+        text-shadow: none;
+    }
+    45% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    52% {
+        text-shadow: rgb(255, 247, 0) 0 0 20px;
+    }
+    59% {
+        text-shadow: none;
+    }
+    65% {
+        text-shadow: rgb(255, 247, 0) 0 0 20px;
+    }
+}
+.neck {
+    background-color: var(--navy-c);
+    height: 40px;
 }
 
 /* profile */

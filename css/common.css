@@ -69,11 +69,11 @@ button {
     line-height: 64px;
 }
 
-.main_title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: calc(var(--base-unit)*3.333);
-    line-height: 64px;
+h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--navy-c);
 }
 
 .descript {
