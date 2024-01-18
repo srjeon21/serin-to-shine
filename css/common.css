@@ -4,8 +4,8 @@
 
 /* variable */
 :root {
-    --base-unit: 25px;
-    --width-unit: 1084px;
+    --base-unit: 20px;
+    --width-unit: 80vw;
     --lightblue-c: #D6F5FF;
     --brightblue-c: #7DD8FF;
     --skyblue-c: #52C1FF;
@@ -23,21 +23,23 @@ button {
     width: var(--width-unit);
     margin: 0 auto;
 }
-
 .con_pd {
     padding: calc(var(--base-unit)*3.333) 0;
 }
-
 .con_top_pd {
     padding-top: calc(var(--base-unit)*6.67);
 }
-
 .con_bottom_pd {
     padding-bottom: calc(var(--base-unit)*6.67);
 }
-
-.flexing{
+.flexing {
     display: flex;
+}
+.align-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* typography */
@@ -68,20 +70,14 @@ button {
     font-size: calc(var(--base-unit)*1.67);
     line-height: 64px;
 }
-
 h1 {
     font-size: 4em;
     text-transform: uppercase;
     font-weight: bold;
-    color: var(--navy-c);
 }
-
-.descript {
-    font-style: normal;
-    font-weight: 600;
-    font-size: var(--base-unit);
-    text-align: left;
-    line-height: 35px;
+h3 {
+    font-size: 2em;
+    font-weight:600;
 }
 .uppercase {
     text-transform: uppercase;
@@ -91,11 +87,9 @@ h1 {
 .sky-bg {
     background: var(--lightblue-c);
 }
-
 .navy-txt {
     color: var(--navy-c);
 }
-
 .white-txt {
     color: white;
 }
